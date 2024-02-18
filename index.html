@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <a href=''>Home</a>
+            <a href="#conhecimentos">Tecnologias</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#redes">Redes</a>
+        </nav>
+
+        <!--button dropdown-->
+        <div class="botao" id="botao">
+            <a href="javascript:void(0);" id="icon">
+                <i class="fa fa-bars"></i>
+            </a>    
+        </div>
+        
+        <!--nav dropdown -->
+        <nav class="nav-dropdown" id="nav-dropdown">
+            <a href="#conhecimentos">Tecnologias</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#redes">Redes</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class='principal'>
+            <div class="apresentacao">
+                <h1 id='titulo'>Eleve seu negócio digital a outro nível <strong id="titulo-destaque">com um dev Web de qualidade!</strong></h1>
+
+                <p class='conteudo-texto'>Olá! Sou Guilherme Fontes, Desenvolvedor cursando Analise e Desenvolvimento de Sistemas na Uniasselvi. Sou uma pessoa que gosta muito da área de programação, com isso gostaria de fazer parte da equipe de funcionários da empresa, tendo o objetivo de crescer profissionalmente e de maneira produtiva, além de contribuir para o desenvolvimento da empresa como um todo.</p>
+
+            </div>
+
+            <div class="imagem">
+                <img class='foto-destaque' src='/assets/imgs/foto.jpg' alt='foto de Guilherme Fontes' />
+            </div>  
+        </section>  
+
+        <section id="conhecimentos">
+            <h1>Tecnologias</h1>
+            
+           <ul>
+                <li><img src="assets/imgs/html.png" alt="html foto"></li>
+                <li><img src="assets/imgs/css-3.png" alt="css foto"></li>
+                <li><img src="assets/imgs/js.png" alt="js foto"></li>
+                <li><img src="assets/imgs/react.png" alt="js foto"></li>
+                <li><img src="assets/imgs/PHP.png" alt="php foto"></li>
+                <li><img src="assets/imgs/mysql.png" alt="mysql foto"></li>
+           </ul>
+        </section>
+        
+        <section id="projetos">
+            <h1>Projetos</h1>
+
+            <div id="lista-projetos">
+                <div class="projeto">
+                    <a href="https://gui2310g.github.io/projeto-faculdade-UNES/" target="_blank">
+                        <img src="assets/imgs/UNES.png" alt="UNES foto" class="capa">
+                        <h1>Faculdade UNES</h1>
+
+                        <p>Ferramentas Utilizadas:</p>
+
+                        <ul>
+                            <li><img src="assets/imgs/html.png" alt="html foto"></li>
+                            <li><img src="assets/imgs/css-3.png" alt="css foto"></li>
+                        </ul>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://gameslib-eight.vercel.app/" target="_blank">
+                        <img src="assets/imgs/gameslib.png" alt="gameslib foto" class="capa">
+                        
+                        <h1>Gameslib</h1>
+
+                        <p>Ferramentas Utilizadas:</p>
+
+                        <ul>
+                            <li><img src="assets/imgs/react.png" alt="js foto"></li>
+                            <li><img src="assets/imgs/api.png" alt="api foto"></li>
+                        </ul>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://cinematix-zeta.vercel.app/" target="_blank">
+                        <img src="assets/imgs/cinematix.png" alt="cinematix foto" class="capa">
+                        
+                        <h1>Cinematix</h1>
+
+                        <p>Ferramentas Utilizadas:</p>
+                        <ul>
+                            <li><img src="assets/imgs/html.png" alt="html foto"></li>
+                            <li><img src="assets/imgs/css-3.png" alt="css foto"></li>
+                            <li><img src="assets/imgs/js.png" alt="js foto"></li>
+                            <li><img src="assets/imgs/api.png" alt="api foto"></li>
+                    </ul>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://www.youtube.com/watch?v=NZsRpGcR11w&ab_channel=GuilhermeCampo" target="_blank">
+                        <img src="assets/imgs/finans.png" alt="Finans foto" class="capa">
+                        
+                        <h1>Finans</h1>
+
+                        <p>Ferramentas Utilizadas:</p>
+                        <ul>
+                            <li><img src="assets/imgs/html.png" alt="html foto"></li>
+                            <li><img src="assets/imgs/css-3.png" alt="css foto"></li>
+                            <li><img src="assets/imgs/js.png" alt="js foto"></li>
+                            <li><img src="assets/imgs/PHP.png" alt="php foto"></li>
+                            <li><img src="assets/imgs/mysql.png" alt="mysql foto"></li>
+                    </ul>
+                    </a>
+                </div>
+
+     
+            </div>
+        </section>
+
+        <section id="redes">
+            <h2 id='titulo-redes'>Acesse minhas redes</h2>
+
+            <a href='https://github.com/gui2310g' target='_blank' rel="noopener noreferrer">
+                        <img className='icons' src='assets/imgs/github.png' alt='foto do Github' />
+                        <span>Github</span>
+            </a>
+
+            <a href='https://www.instagram.com/guilhermefontess/' target='_blank' rel="noopener noreferrer">
+                        <img className='icons' src='assets/imgs/instagram.png' alt='foto do Instagram' />
+                        <span>instagram</span>
+            </a>
+
+            <a href='https://www.linkedin.com/in/guilherme-campo-873890255/' target='_blank' rel="noopener noreferrer">
+                        <img className='icons' src='assets/imgs/linkedin.png' alt='foto do Linkedin' />
+                        <span>Linkedin</span>
+            </a> 
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Guilherme Fontes Campo</p>
+    </footer>
+
+    <script>
+       $(document).ready(function() {
+        $("#botao").click(function() {
+            $(".nav-dropdown").slideToggle("slow");
+            $("#main").animate({
+                marginTop: ($("#main").css("marginTop") === "0px") ? '160px' : '0'
+            });
+        });
+    });
+    </script>
+</body>
+</html>
